@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IvanAssignment</string>
+    <string name="base_url">http://www.omdbapi.com/</string>
+</resources>
