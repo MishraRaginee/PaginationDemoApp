@@ -39,7 +39,8 @@ class MainActivity : AppCompatActivity() {
     fun setSearchListAdapter(list: List<PojoResponse>){
         findViewById<RecyclerView>(R.id.recyclerView).apply {
             layoutManager = LinearLayoutManager(this@MainActivity,LinearLayoutManager.VERTICAL,false)
-            adapter = SimpleAdapter(this@MainActivity,list[0].Search.toList())        }
+            adapter = SimpleAdapter(this@MainActivity,list[0].Search.toList())
+        }
 
     }
 
